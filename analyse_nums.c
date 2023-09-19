@@ -85,7 +85,7 @@ int *generateRandomIntegers()
     }
     if (size_in_range())
     {
-        for (int i = 0; i < size; i++)
+        for (int i = 0; i < totalSize; i++)
         {
             numbers[gen_rand() - r1]++;
         }
