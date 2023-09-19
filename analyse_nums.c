@@ -20,7 +20,7 @@ int gen_rand()
 // function that check if size of array is smaller than range (r2-r1+1)
 int size_in_range()
 {
-    return initialSize >= range;
+    return abs(initialSize) >= range;
 }
 // Comparison function for qsort
 int cmp(const void *a, const void *b)
